@@ -1,3 +1,21 @@
+# Description
+#   Hubot client for the GeekSoc Account System API
+#
+#
+# Configuration:
+#   HUBOT_GAS_API_URL
+#   HUBOT_GAS_API_USER
+#   HUBOT_GAS_API_PASS
+#
+# Commands:
+#   hubot userinfo - return details about a user
+#   hubot groupinfo - return details about a group
+#
+#
+# Author:
+#   smillie
+
+
 base_url= process.env.HUBOT_GAS_API_URL
 unless base_url?
   console.log "Missing HUBOT_GAS_API_URL in environment: please set and try again"
